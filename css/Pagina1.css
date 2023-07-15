@@ -1,0 +1,72 @@
+@font-face{
+    font-family: 'mifuente';
+    src: url(../Fuentes/Skranji-Regular.ttf);
+}
+@font-face{
+    font-family: 'mifuente2';
+    src: url(../Fuentes/OpenSans-Italic-VariableFont_wdth\,wght.ttf);
+}  
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+header{
+	background-color: #78acfa;
+	text-align: center;
+	padding: 25px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+h2{
+    font-size: 35px;
+    font-family:'mifuente';
+    /*font-family: 'Skranji', cursiva;*/
+    font-weight: 700;
+    color: green;
+    padding: 20px;
+}
+.contenedor{
+    display: flex;
+    padding: 20px; 
+}
+.contenedor p{
+    font-family: 'mifuente2';
+    font-size: 16px;
+    margin: 0 15px;
+}
+.contenedor img{
+    margin-bottom: 10px;
+	border: gray 15px outset;
+    font-size: 15px;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    background: #000;
+}
+footer p{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Open Sans';
+    background: #f2f2f2;
+}
+a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 10px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+.encabezado-img{
+	background-image: url(../Img/Portada.jpg);
+	background-size: cover;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+}
+.encabezado-img p{
+	font-size: 18px;
+}
+.encabezado-img h1{
+	font-size: 50px;
+	padding: 15px 0;
+}
+.aside {
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  .image-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  }
+  
+  .image-container img {
+	width: 30%;
+	border-radius: 10px;
+	margin-right: 10px;
+  }
+footer{
+    background: #000;
+}
+footer p{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Animales{
+	font-family: 'Times New Roman', Times, serif;
+	color: red;
+	font-size: 30px;
+}
+.fixed {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+}

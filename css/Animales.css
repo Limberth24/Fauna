@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background: black;
+}
+a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: black;
+}
+header{
+	background-color: #f2f2f2;
+	text-align: center;
+	padding: 10px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #696969;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000;
+	color: #fff;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.galeria{
+    width: 100%;
+    text-align: center;
+}
+.galeria img{
+    margin: 20px;
+    padding: 5px;
+    vertical-align: top;
+    border: 1px solid #484848;
+}
+.galeria img:hover{
+    border: 1px solid #fff;
+}
